@@ -6,7 +6,6 @@ definePageMeta({
 const route = useRoute()
 
 const error = route.query.error || "An unexpected error occurred.";
-
 </script>
 
 <template>
