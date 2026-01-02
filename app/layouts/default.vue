@@ -8,6 +8,10 @@
 </template>
 
 <script lang="ts" setup>
+import { auth } from '~~/lib/auth';
+
+  const authStore = useAuthStore()
+  await authStore.init()
 </script>
 
 <style></style>

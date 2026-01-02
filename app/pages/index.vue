@@ -6,14 +6,18 @@
       <p class="py-6">
         Keep track of your travels and adventures with this simple travel log app.
       </p>
-      <AuthButton />
+
+
+      <AuthButton v-if="!authStore.user"/>
+      <button v-else class="btn btn-primary">Start Logging..</button>
+    
     </div>
   </div>
 </div>
 </template>
 
 <script lang="ts" setup>
-
+  const authStore = useAuthStore()
 </script>
 
 <style>
