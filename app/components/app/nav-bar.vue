@@ -6,7 +6,7 @@
   </div>
     <div class="navbar-end">
     <AppThemeToggler />
-      <a class="btn btn-accent">Sign In <Icon name="tabler:brand-github" size="24" /></a>
+    <AuthButton />
     </div>
 </div>
 </template>

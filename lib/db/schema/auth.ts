@@ -33,7 +33,7 @@ export const session = sqliteTable(
 export const account = sqliteTable(
   "account",
   {
-    id: text("id").primaryKey(),
+    id: int().primaryKey({ autoIncrement: true }),
     accountId: text().notNull(),
     providerId: text().notNull(),
     userId: int()

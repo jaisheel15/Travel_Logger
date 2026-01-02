@@ -15,6 +15,13 @@
       "when": 1767334071125,
       "tag": "0001_strange_dreaming_celestial",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1767342703269,
+      "tag": "0002_perfect_reptil",
+      "breakpoints": true
     }
   ]
 }
